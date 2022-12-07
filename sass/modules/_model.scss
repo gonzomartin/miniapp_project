@@ -1,0 +1,17 @@
+.models li { 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 220px;
+    margin: 0;
+    text-align: center;
+  
+    /* border: thin dashed white; */
+}
+.models img {
+    max-width: 350px;
+}
+
+.modelNav ul {
+    display: flex;
+    justify-content: center;}
