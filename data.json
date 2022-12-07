@@ -1,0 +1,38 @@
+{
+    "5Doors": {
+        "model_thumb": "model1_thumbnail.png",
+        "model_name": "MINI 5 DOOR",
+        "model_picture": "model1_background.jpg",
+        "model_available": "Currently unavailable",
+        "model_logo": ["logo-cooper.png", "logo-cooper_s.png", "logo-electric.png", "logo-jcw.png"],
+        "model_price": ["Starting from: $32,190", "Starting from:$37,790", "/", "/"],
+        "model_hp": ["134 hp", "189 hp", "/", "/"]
+    },
+    "3Doors": {
+        "model_thumb": "model2_thumbnail.png",
+        "model_name": "MINI 3 DOOR",
+        "model_picture": "model2_background.jpg",
+        "model_available": "Currently unavailable",
+        "model_logo": ["logo-cooper.png", "logo-cooper_s.png", "logo-electric.png", "logo-jcw.png"],
+        "model_price": ["Starting from: $31,090", "Starting from:$36,790", "Starting from: $47,190", "Starting from: $45,590"],
+        "model_hp": ["134 hp", "189 hp", "228 hp", "181 hp"]
+    },
+    "Convertible": {
+        "model_thumb": "model3_thumbnail.png",
+        "model_name": "MINI CONVERTIBLE",
+        "model_picture": "model3_background.jpg",
+        "model_available": "Currently unavailable",
+        "model_logo": ["logo-cooper.png", "logo-cooper_s.png", "logo-electric.png", "logo-jcw.png"],
+        "model_price": ["Starting from: $37,990", "Starting from:$43,390", "Starting from:$54,490", "/"],
+        "model_hp": ["134 hp", "189 hp", "228 hp", "/"]
+    },
+    "All4": {
+        "model_thumb": "model4_thumbnail.png",
+        "model_name": "MINI COUNTRYMAN ALL4",
+        "model_picture": "model4_background.jpg",
+        "model_available": "Currently unavailable",
+        "model_logo": ["logo-cooper.png", "logo-cooper_s.png", "logo-electric.png", "logo-jcw.png"],
+        "model_price": ["Starting from: $37,990", "Starting from:$43,190", "Starting from: $51,190", "Starting from: $54,980"],
+        "model_hp": ["134 hp", "189 hp", "301 hp", "134 hp"]
+    }
+}
