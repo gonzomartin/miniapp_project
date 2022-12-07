@@ -1,4 +1,6 @@
+
 import ModelThumb from './components/ModelsThumbnail.js'
+import ModelBoxComponent from './components/ModelsBox.js'
 (() => {
     // create vue instance here
     const { createApp } = Vue
@@ -14,13 +16,23 @@ import ModelThumb from './components/ModelsThumbnail.js'
 
         data() {
             return {
-                modelData: {}
+                modelData: {},
+                modelBox: {},
+                showBox: false
                 
             }
         },
 
         components: {
-            modelthumbnail: ModelThumb
+            modelthumbnail: ModelThumb,
+            thebox: ModelBoxComponent
+        },
+
+        methods: {
+            loadModelBox(model) {
+                this.modelBox = model;
+                this.showBox = true;
+            }
         }
 
     }).mount('#app')

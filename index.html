@@ -39,33 +39,66 @@
     
             <nav class="modelNav">
                 <ul class="models">
-                    <modelthumbnail v-for="model in modelData" :model="model"></modelthumbnail>
+                    <modelthumbnail @loadmodelinfo="loadModelBox" v-for="model in modelData" :model="model"></modelthumbnail>
                 </ul>
             </nav>
+
+            <thebox @closeinfobox="this.showBox=false" v-if="showBox" :model="modelBox"></thebox>
     
     
         </section>
+
         <section class="bannerSec">
 
         </section>
 
-
-        <section>
-            <div class="model-container">
+        <!-- <section class="modelBox">
+            <div class="nav__close" id="nav-close">
+                <i class='bx bx-x'></i>
+            </div>
+            <div>
+                <img src="" alt="" class="model-bg">
+            </div>
+            <div class="modelInfo">
                 <h2 class="modelTittle"></h2>
-                <div class="modelInfo-box">
-                    <img src="" alt="" class="model-logo">
-                    <div>
-                        <h3></h2>
-                        <h4></h3>
+                <div class="modelInfo_box">
+                    <div class="modelInfo_el">
+                        <img src="" alt="" class="model-logo">
                         <div>
-                            <p></p>
+                            <h3>Starting from:</h2>
+                            <h4 class="price"></h3>
+                            <p class="hp"></p>
+                        </div>
+                    </div>
+                    <div class="modelInfo_el">
+                        <img src="" alt="" class="model-logo">
+                        <div>
+                            <h3>Starting from:</h2>
+                            <h4 class="price"></h3>
+                            <p class="hp"></p>
+                        </div>
+                    </div>
+                    <div class="modelInfo_el">
+                        <img src="" alt="" class="model-logo">
+                        <div>
+                            <h3>Starting from:</h2>
+                            <h4 class="price"></h3>
+                            <p class="hp"></p>
+                        </div>
+                    </div>
+                    <div class="modelInfo_el">
+                        <img src="" alt="" class="model-logo">
+                        <div>
+                            <h3>Starting from:</h2>
+                            <h4 class="price"></h3>
+                            <p class="hp"></p>
                         </div>
                     </div>
                 </div>
             </div>
-            
-        </section>
+        </section> -->
+
+
     </main>
     <footer class="sticky_footer">
         <h3>All Images &copy; Marvel</h3>
