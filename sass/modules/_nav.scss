@@ -1,0 +1,46 @@
+
+.nav {
+    font-weight: 600;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+.nav img {
+    max-width: 80px;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav li {
+    padding-left: 1rem;
+}
+.home {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $grey-strong;
+}
+.mainVideo {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    
+}
+.mainVideo iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sticky_footer {
+    text-align: center;
+    background-color: $grey-strong;
+    color: $white-color;
+    padding: 1rem;
+}
