@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
-=======
 {"version":3,"sourceRoot":"","sources":["../sass/modules/_reset.scss","../sass/modules/_vars.scss","../sass/modules/_default.scss","../sass/modules/_model.scss"],"names":[],"mappings":"AAAA,EACI,YACA,UACA,SACA,sBCJJ,qBCCI,QACI,UACA,iBACA,cAGJ,sBAGJ,KACI,uBAGJ,KACI,YDJa,yBCKb,YDMe,MCLf,UDDe,QCEf,gBACA,MDhBU,KCqBd,GACI,gBAGJ,EACI,qBAGJ,IACI,eACA,YAGJ,OACI,YACA,aACA,eAGJ,WACI,iBACA,mBACA,oBAGJ,MACI,aACA,WAGJ,SACI,sBCvDJ,WACI,qBACA,kBACA,eACA,aACA,SACA,kBAIJ,YACI,gBAGJ,aACI,aACA","file":"main.css"}
->>>>>>> dev.gma.basicSetup
